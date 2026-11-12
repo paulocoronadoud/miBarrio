@@ -1,0 +1,24 @@
+{
+  "name": "mi-barrio",
+  "version": "1.0.0",
+  "description": "Plataforma web de gestión comunitaria para barrios locales",
+  "main": ".openspec/index.ts",
+  "types": ".openspec/index.ts",
+  "scripts": {
+    "build": "tsc .openspec --outDir dist",
+    "dev": "tsx watch .openspec/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "community",
+    "neighborhood",
+    "management",
+    "open-spec"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.10.0"
+  }
+}

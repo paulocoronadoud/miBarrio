@@ -1,0 +1,35 @@
+name: MiBarrio
+description: Plataforma web de gestión comunitaria para barrios locales
+version: 1.0
+
+modules:
+  - id: dashboard
+    name: Dashboard Principal
+    description: Panel de control con métricas y estadísticas del barrio
+    status: planning
+    
+  - id: users
+    name: Gestión de Usuarios
+    description: Administración de residentes, voluntarios y personal
+    status: planning
+    
+  - id: services
+    name: Servicios Comunitarios
+    description: Registro y gestión de servicios locales disponibles
+    status: planning
+    
+  - id: events
+    name: Eventos y Actividades
+    description: Calendarización de actividades comunitarias
+    status: planning
+    
+  - id: reports
+    name: Informes y Estadísticas
+    description: Generación de reportes para tomadores de decisiones
+    status: planning
+
+tech-stack:
+  frontend: webapp
+  language: JavaScript/TypeScript
+  framework: React
+  database: PostgreSQL
